@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Market Explorer | Discover Top AI Skills</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <h1>SkillHub</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li class="active" data-page="discover">
+                        <span class="icon">🔍</span>
+                        <span>Discover</span>
+                    </li>
+                    <li data-page="my-collection">
+                        <span class="icon">⭐</span>
+                        <span>My Collection</span>
+                    </li>
+                    <li data-page="platforms">
+                        <span class="icon">🌐</span>
+                        <span>Platforms</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="avatar"></div>
+                    <div class="user-info">
+                        <span class="name">Guest User</span>
+                        <span class="status">Beta Member</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="content-header">
+                <div class="search-bar">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="Search skills, plugins, or agents...">
+                </div>
+                <div class="header-actions">
+                    <button class="btn-secondary" id="sync-data-btn">🔄 Sync Market</button>
+                    <button class="btn-primary" id="add-skill-btn">+ Add Skill</button>
+                    <div class="notifications">🔔</div>
+                </div>
+            </header>
+
+            <div id="page-content" class="page-fade-in">
+                <!-- Content will be injected here by JS -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Modals -->
+    <div id="add-modal" class="modal-overlay hidden">
+        <div class="modal">
+            <h2>Add New Skill</h2>
+            <form id="add-skill-form">
+                <input type="text" id="skill-name" placeholder="Skill Name" required>
+                <select id="skill-platform">
+                    <option value="Coze">Coze</option>
+                    <option value="Dify">Dify</option>
+                    <option value="GPT Store">GPT Store</option>
+                    <option value="Poe">Poe</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input type="text" id="skill-category" placeholder="Category (e.g. Creative, Coding)">
+                <input type="url" id="skill-url" placeholder="Marketplace URL">
+                <textarea id="skill-desc" placeholder="Description"></textarea>
+                <div class="modal-actions">
+                    <button type="button" class="btn-secondary" id="close-modal">Cancel</button>
+                    <button type="submit" class="btn-primary">Save Skill</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

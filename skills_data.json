@@ -1,0 +1,101 @@
+[
+    {
+        "id": "gpt_1",
+        "name": "Consensus",
+        "platform": "GPT Store",
+        "category": "Research",
+        "description": "AI-powered search engine for academic research. Search 200M+ papers.",
+        "url": "https://chat.openai.com/g/g-bo09qzrY7-consensus",
+        "trending": true,
+        "hotness": 99,
+        "downloads": "2.1M"
+    },
+    {
+        "id": "coze_1",
+        "name": "Google Search",
+        "platform": "Coze",
+        "category": "Search",
+        "description": "The official Google Search plugin for real-time information retrieval.",
+        "url": "https://www.coze.com/store/plugin",
+        "trending": true,
+        "hotness": 97,
+        "downloads": "1.5M"
+    },
+    {
+        "id": "gpt_2",
+        "name": "Canva",
+        "platform": "GPT Store",
+        "category": "Creative",
+        "description": "Design anything - presentations, logos, social posts in ChatGPT.",
+        "url": "https://chat.openai.com/g/g-46Y78X8-canva",
+        "trending": true,
+        "hotness": 96,
+        "downloads": "1.8M"
+    },
+    {
+        "id": "dify_1",
+        "name": "Slack Integration",
+        "platform": "Dify",
+        "category": "Productivity",
+        "description": "Automate Slack messages and channel management with LLM agents.",
+        "url": "https://dify.ai",
+        "trending": false,
+        "hotness": 82,
+        "downloads": "120K"
+    },
+    {
+        "id": "gpt_3",
+        "name": "ScholarAI",
+        "platform": "GPT Store",
+        "category": "Research",
+        "description": "Unlock scientific knowledge from 200M+ peer-reviewed papers.",
+        "url": "https://chat.openai.com/g/g-L4W7A86Yc-scholarai",
+        "trending": true,
+        "hotness": 94,
+        "downloads": "950K"
+    },
+    {
+        "id": "gpt_4",
+        "name": "Prompt Perfect",
+        "platform": "GPT Store",
+        "category": "Productivity",
+        "description": "The gold standard for automatic prompt engineering.",
+        "url": "https://chat.openai.com/g/g-m6U6E5l1e-prompt-perfect",
+        "trending": true,
+        "hotness": 92,
+        "downloads": "780K"
+    },
+    {
+        "id": "coze_2",
+        "name": "DALL-E 3 Image Gen",
+        "platform": "Coze",
+        "category": "Creative",
+        "description": "High-fidelity image generation for multi-agent workflows.",
+        "url": "https://www.coze.com",
+        "trending": true,
+        "hotness": 91,
+        "downloads": "890K"
+    },
+    {
+        "id": "gpt_5",
+        "name": "Logo Creator",
+        "platform": "GPT Store",
+        "category": "Creative",
+        "description": "Use professional branding principles to design a perfect logo.",
+        "url": "https://chat.openai.com/g/g-S9nMB9C6p-logo-creator",
+        "trending": false,
+        "hotness": 88,
+        "downloads": "620K"
+    },
+    {
+        "id": "dify_2",
+        "name": "GitLab Runner",
+        "platform": "Dify",
+        "category": "Coding",
+        "description": "Control your CI/CD pipelines directly through natural language.",
+        "url": "https://dify.ai",
+        "trending": true,
+        "hotness": 85,
+        "downloads": "45K"
+    }
+]

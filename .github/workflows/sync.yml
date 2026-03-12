@@ -1,0 +1,39 @@
+name: Market Data Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天凌晨 0 点运行 (UTC)
+  workflow_dispatch:      # 支持在 Actions 界面点击按钮手动运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write    # 允许 Action 提交代码
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        # 如果以后有依赖，可以加在此处
+        # pip install -r requirements.txt
+        echo "No dependencies needed currently."
+
+    - name: Run Market Sync Script
+      run: python sync_market.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "MarketSyncBot"
+        git config --global user.email "bot@github.com"
+        git add skills_data.json
+        # 只有在有变化时才 commit，防止报错
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-sync: update market metrics $(date +'%Y-%m-%d')" && git push)
