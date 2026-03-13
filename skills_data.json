@@ -1,5 +1,16 @@
 [
     {
+        "id": "gpt_2",
+        "name": "Canva",
+        "platform": "GPT Store",
+        "category": "Creative",
+        "description": "Design anything - presentations, logos, social posts in ChatGPT.",
+        "url": "https://chat.openai.com/g/g-46Y78X8-canva",
+        "trending": true,
+        "hotness": 98,
+        "downloads": "1.8M"
+    },
+    {
         "id": "gpt_1",
         "name": "Consensus",
         "platform": "GPT Store",
@@ -7,7 +18,7 @@
         "description": "AI-powered search engine for academic research. Search 200M+ papers.",
         "url": "https://chat.openai.com/g/g-bo09qzrY7-consensus",
         "trending": true,
-        "hotness": 99,
+        "hotness": 97,
         "downloads": "2.1M"
     },
     {
@@ -22,28 +33,6 @@
         "downloads": "1.5M"
     },
     {
-        "id": "gpt_2",
-        "name": "Canva",
-        "platform": "GPT Store",
-        "category": "Creative",
-        "description": "Design anything - presentations, logos, social posts in ChatGPT.",
-        "url": "https://chat.openai.com/g/g-46Y78X8-canva",
-        "trending": true,
-        "hotness": 96,
-        "downloads": "1.8M"
-    },
-    {
-        "id": "dify_1",
-        "name": "Slack Integration",
-        "platform": "Dify",
-        "category": "Productivity",
-        "description": "Automate Slack messages and channel management with LLM agents.",
-        "url": "https://dify.ai",
-        "trending": false,
-        "hotness": 82,
-        "downloads": "120K"
-    },
-    {
         "id": "gpt_3",
         "name": "ScholarAI",
         "platform": "GPT Store",
@@ -51,19 +40,52 @@
         "description": "Unlock scientific knowledge from 200M+ peer-reviewed papers.",
         "url": "https://chat.openai.com/g/g-L4W7A86Yc-scholarai",
         "trending": true,
-        "hotness": 94,
-        "downloads": "950K"
+        "hotness": 95,
+        "downloads": "951.5K"
     },
     {
-        "id": "gpt_4",
-        "name": "Prompt Perfect",
-        "platform": "GPT Store",
-        "category": "Productivity",
-        "description": "The gold standard for automatic prompt engineering.",
-        "url": "https://chat.openai.com/g/g-m6U6E5l1e-prompt-perfect",
+        "id": "smithery_1",
+        "name": "PostgreSQL MCP",
+        "platform": "Smithery",
+        "category": "Database",
+        "description": "Enterprise-grade PostgreSQL connector for Model Context Protocol.",
+        "url": "https://smithery.ai",
+        "trending": true,
+        "hotness": 95,
+        "downloads": "12.1K"
+    },
+    {
+        "id": "langchain_1",
+        "name": "RAG improver",
+        "platform": "LangChain",
+        "category": "Coding",
+        "description": "Optimize your Retrieval Augmented Generation pipelines with specific prompts.",
+        "url": "https://smith.langchain.com/hub",
+        "trending": true,
+        "hotness": 95,
+        "downloads": "45.3K"
+    },
+    {
+        "id": "pulse_1",
+        "name": "Financial Analyst",
+        "platform": "PulseMCP",
+        "category": "Finance",
+        "description": "Analyze stock market trends and financial reports using specialized tools.",
+        "url": "https://pulsemcp.com",
         "trending": true,
         "hotness": 92,
-        "downloads": "780K"
+        "downloads": "15.1K"
+    },
+    {
+        "id": "composio_1",
+        "name": "GitHub Power Tool",
+        "platform": "Composio",
+        "category": "Productivity",
+        "description": "Advanced GitHub integration for repository management and PR automation.",
+        "url": "https://composio.ai",
+        "trending": true,
+        "hotness": 92,
+        "downloads": "22.1K"
     },
     {
         "id": "coze_2",
@@ -74,7 +96,29 @@
         "url": "https://www.coze.com",
         "trending": true,
         "hotness": 91,
-        "downloads": "890K"
+        "downloads": "892.1K"
+    },
+    {
+        "id": "toolhouse_1",
+        "name": "Memory Explorer",
+        "platform": "Toolhouse",
+        "category": "Research",
+        "description": "Enhanced long-term memory and knowledge retrieval tool for agents.",
+        "url": "https://toolhouse.ai",
+        "trending": true,
+        "hotness": 91,
+        "downloads": "11.0K"
+    },
+    {
+        "id": "gpt_4",
+        "name": "Prompt Perfect",
+        "platform": "GPT Store",
+        "category": "Productivity",
+        "description": "The gold standard for automatic prompt engineering.",
+        "url": "https://chat.openai.com/g/g-m6U6E5l1e-prompt-perfect",
+        "trending": true,
+        "hotness": 90,
+        "downloads": "781.8K"
     },
     {
         "id": "gpt_5",
@@ -84,8 +128,8 @@
         "description": "Use professional branding principles to design a perfect logo.",
         "url": "https://chat.openai.com/g/g-S9nMB9C6p-logo-creator",
         "trending": false,
-        "hotness": 88,
-        "downloads": "620K"
+        "hotness": 89,
+        "downloads": "621.5K"
     },
     {
         "id": "dify_2",
@@ -95,30 +139,8 @@
         "description": "Control your CI/CD pipelines directly through natural language.",
         "url": "https://dify.ai",
         "trending": true,
-        "hotness": 85,
-        "downloads": "45K"
-    },
-    {
-        "id": "smithery_1",
-        "name": "PostgreSQL MCP",
-        "platform": "Smithery",
-        "category": "Database",
-        "description": "Enterprise-grade PostgreSQL connector for Model Context Protocol.",
-        "url": "https://smithery.ai",
-        "trending": true,
-        "hotness": 94,
-        "downloads": "12K"
-    },
-    {
-        "id": "himcp_1",
-        "name": "Shopify Storefront",
-        "platform": "HiMCP",
-        "category": "E-commerce",
-        "description": "Manage products and orders via natural language in your agent.",
-        "url": "https://himcp.ai",
-        "trending": false,
-        "hotness": 78,
-        "downloads": "3.5K"
+        "hotness": 86,
+        "downloads": "45.3K"
     },
     {
         "id": "mcp_run_1",
@@ -128,19 +150,30 @@
         "description": "Real-time weather data serverless function for AI agents.",
         "url": "https://mcp.run",
         "trending": false,
-        "hotness": 82,
+        "hotness": 85,
         "downloads": "8.2K"
     },
     {
-        "id": "pulse_1",
-        "name": "Financial Analyst",
-        "platform": "PulseMCP",
-        "category": "Finance",
-        "description": "Analyze stock market trends and financial reports using specialized tools.",
-        "url": "https://pulsemcp.com",
-        "trending": true,
-        "hotness": 91,
-        "downloads": "15K"
+        "id": "dify_1",
+        "name": "Slack Integration",
+        "platform": "Dify",
+        "category": "Productivity",
+        "description": "Automate Slack messages and channel management with LLM agents.",
+        "url": "https://dify.ai",
+        "trending": false,
+        "hotness": 80,
+        "downloads": "120.4K"
+    },
+    {
+        "id": "himcp_1",
+        "name": "Shopify Storefront",
+        "platform": "HiMCP",
+        "category": "E-commerce",
+        "description": "Manage products and orders via natural language in your agent.",
+        "url": "https://himcp.ai",
+        "trending": false,
+        "hotness": 76,
+        "downloads": "3.5K"
     },
     {
         "id": "clawhub_1",
@@ -152,38 +185,5 @@
         "trending": false,
         "hotness": 75,
         "downloads": "2.1K"
-    },
-    {
-        "id": "composio_1",
-        "name": "GitHub Power Tool",
-        "platform": "Composio",
-        "category": "Productivity",
-        "description": "Advanced GitHub integration for repository management and PR automation.",
-        "url": "https://composio.ai",
-        "trending": true,
-        "hotness": 93,
-        "downloads": "22K"
-    },
-    {
-        "id": "toolhouse_1",
-        "name": "Memory Explorer",
-        "platform": "Toolhouse",
-        "category": "Research",
-        "description": "Enhanced long-term memory and knowledge retrieval tool for agents.",
-        "url": "https://toolhouse.ai",
-        "trending": true,
-        "hotness": 89,
-        "downloads": "11K"
-    },
-    {
-        "id": "langchain_1",
-        "name": "RAG improver",
-        "platform": "LangChain",
-        "category": "Coding",
-        "description": "Optimize your Retrieval Augmented Generation pipelines with specific prompts.",
-        "url": "https://smith.langchain.com/hub",
-        "trending": true,
-        "hotness": 96,
-        "downloads": "45K"
     }
 ]
