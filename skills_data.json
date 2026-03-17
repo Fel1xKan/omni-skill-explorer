@@ -18,8 +18,19 @@
         "description": "Design anything - presentations, logos, social posts in ChatGPT.",
         "url": "https://chat.openai.com/g/g-46Y78X8-canva",
         "trending": true,
-        "hotness": 98,
+        "hotness": 100,
         "downloads": "1.8M"
+    },
+    {
+        "id": "composio_1",
+        "name": "GitHub Power Tool",
+        "platform": "Composio",
+        "category": "Productivity",
+        "description": "Advanced GitHub integration for repository management and PR automation.",
+        "url": "https://composio.ai",
+        "trending": true,
+        "hotness": 98,
+        "downloads": "22.7K"
     },
     {
         "id": "gpt_1",
@@ -33,50 +44,6 @@
         "downloads": "2.1M"
     },
     {
-        "id": "langchain_1",
-        "name": "RAG improver",
-        "platform": "LangChain",
-        "category": "Coding",
-        "description": "Optimize your Retrieval Augmented Generation pipelines with specific prompts.",
-        "url": "https://smith.langchain.com/hub",
-        "trending": true,
-        "hotness": 95,
-        "downloads": "46.0K"
-    },
-    {
-        "id": "toolhouse_1",
-        "name": "Memory Explorer",
-        "platform": "Toolhouse",
-        "category": "Research",
-        "description": "Enhanced long-term memory and knowledge retrieval tool for agents.",
-        "url": "https://toolhouse.ai",
-        "trending": true,
-        "hotness": 95,
-        "downloads": "11.2K"
-    },
-    {
-        "id": "composio_1",
-        "name": "GitHub Power Tool",
-        "platform": "Composio",
-        "category": "Productivity",
-        "description": "Advanced GitHub integration for repository management and PR automation.",
-        "url": "https://composio.ai",
-        "trending": true,
-        "hotness": 95,
-        "downloads": "22.6K"
-    },
-    {
-        "id": "gpt_5",
-        "name": "Logo Creator",
-        "platform": "GPT Store",
-        "category": "Creative",
-        "description": "Use professional branding principles to design a perfect logo.",
-        "url": "https://chat.openai.com/g/g-S9nMB9C6p-logo-creator",
-        "trending": false,
-        "hotness": 94,
-        "downloads": "629.0K"
-    },
-    {
         "id": "pulse_1",
         "name": "Financial Analyst",
         "platform": "PulseMCP",
@@ -84,8 +51,8 @@
         "description": "Analyze stock market trends and financial reports using specialized tools.",
         "url": "https://pulsemcp.com",
         "trending": true,
-        "hotness": 94,
-        "downloads": "15.3K"
+        "hotness": 96,
+        "downloads": "15.4K"
     },
     {
         "id": "smithery_1",
@@ -95,8 +62,41 @@
         "description": "Enterprise-grade PostgreSQL connector for Model Context Protocol.",
         "url": "https://smithery.ai",
         "trending": true,
+        "hotness": 94,
+        "downloads": "12.4K"
+    },
+    {
+        "id": "langchain_1",
+        "name": "RAG improver",
+        "platform": "LangChain",
+        "category": "Coding",
+        "description": "Optimize your Retrieval Augmented Generation pipelines with specific prompts.",
+        "url": "https://smith.langchain.com/hub",
+        "trending": true,
         "hotness": 93,
-        "downloads": "12.3K"
+        "downloads": "46.4K"
+    },
+    {
+        "id": "toolhouse_1",
+        "name": "Memory Explorer",
+        "platform": "Toolhouse",
+        "category": "Research",
+        "description": "Enhanced long-term memory and knowledge retrieval tool for agents.",
+        "url": "https://toolhouse.ai",
+        "trending": true,
+        "hotness": 93,
+        "downloads": "11.3K"
+    },
+    {
+        "id": "gpt_5",
+        "name": "Logo Creator",
+        "platform": "GPT Store",
+        "category": "Creative",
+        "description": "Use professional branding principles to design a perfect logo.",
+        "url": "https://chat.openai.com/g/g-S9nMB9C6p-logo-creator",
+        "trending": false,
+        "hotness": 92,
+        "downloads": "633.1K"
     },
     {
         "id": "gpt_3",
@@ -106,8 +106,8 @@
         "description": "Unlock scientific knowledge from 200M+ peer-reviewed papers.",
         "url": "https://chat.openai.com/g/g-L4W7A86Yc-scholarai",
         "trending": true,
-        "hotness": 93,
-        "downloads": "965.2K"
+        "hotness": 92,
+        "downloads": "973.9K"
     },
     {
         "id": "gpt_4",
@@ -117,8 +117,19 @@
         "description": "The gold standard for automatic prompt engineering.",
         "url": "https://chat.openai.com/g/g-m6U6E5l1e-prompt-perfect",
         "trending": true,
-        "hotness": 93,
-        "downloads": "787.2K"
+        "hotness": 91,
+        "downloads": "792.2K"
+    },
+    {
+        "id": "dify_2",
+        "name": "GitLab Runner",
+        "platform": "Dify",
+        "category": "Coding",
+        "description": "Control your CI/CD pipelines directly through natural language.",
+        "url": "https://dify.ai",
+        "trending": true,
+        "hotness": 90,
+        "downloads": "46.4K"
     },
     {
         "id": "coze_2",
@@ -129,18 +140,7 @@
         "url": "https://www.coze.com",
         "trending": true,
         "hotness": 87,
-        "downloads": "903.0K"
-    },
-    {
-        "id": "dify_2",
-        "name": "GitLab Runner",
-        "platform": "Dify",
-        "category": "Coding",
-        "description": "Control your CI/CD pipelines directly through natural language.",
-        "url": "https://dify.ai",
-        "trending": true,
-        "hotness": 87,
-        "downloads": "46.2K"
+        "downloads": "907.5K"
     },
     {
         "id": "mcp_run_1",
@@ -150,19 +150,8 @@
         "description": "Real-time weather data serverless function for AI agents.",
         "url": "https://mcp.run",
         "trending": false,
-        "hotness": 83,
-        "downloads": "8.4K"
-    },
-    {
-        "id": "himcp_1",
-        "name": "Shopify Storefront",
-        "platform": "HiMCP",
-        "category": "E-commerce",
-        "description": "Manage products and orders via natural language in your agent.",
-        "url": "https://himcp.ai",
-        "trending": false,
-        "hotness": 79,
-        "downloads": "3.5K"
+        "hotness": 86,
+        "downloads": "8.5K"
     },
     {
         "id": "dify_1",
@@ -173,7 +162,18 @@
         "url": "https://dify.ai",
         "trending": false,
         "hotness": 79,
-        "downloads": "122.6K"
+        "downloads": "123.2K"
+    },
+    {
+        "id": "himcp_1",
+        "name": "Shopify Storefront",
+        "platform": "HiMCP",
+        "category": "E-commerce",
+        "description": "Manage products and orders via natural language in your agent.",
+        "url": "https://himcp.ai",
+        "trending": false,
+        "hotness": 78,
+        "downloads": "3.5K"
     },
     {
         "id": "clawhub_1",
@@ -183,7 +183,7 @@
         "description": "Monitor server health and receive alerts directly in chat.",
         "url": "https://clawhub.io",
         "trending": false,
-        "hotness": 76,
+        "hotness": 77,
         "downloads": "2.1K"
     }
 ]
