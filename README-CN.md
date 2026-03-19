@@ -1,8 +1,8 @@
-# Skill Market Explorer | 技能市场探索器
+# Omni Skill Explorer | 技能市场探索器
 
 这是一个用于收集和发现热门 AI 技能（Coze, Dify, GPT Store 等）的在线工具。
 
-**🌐 访问地址：[https://Fel1xKan.github.io/core-skylab/](https://Fel1xKan.github.io/core-skylab/)**
+**🌐 访问地址：[https://Fel1xKan.github.io/omni-skill-explorer/](https://Fel1xKan.github.io/omni-skill-explorer/)**
 
 ## 🌟 功能特点
 - **动态更新**：通过 GitHub Actions 每天自动运行同步脚本。

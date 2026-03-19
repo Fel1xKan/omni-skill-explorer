@@ -22,17 +22,6 @@
         "downloads": "1.8M"
     },
     {
-        "id": "composio_1",
-        "name": "GitHub Power Tool",
-        "platform": "Composio",
-        "category": "Productivity",
-        "description": "Advanced GitHub integration for repository management and PR automation.",
-        "url": "https://composio.ai",
-        "trending": true,
-        "hotness": 100,
-        "downloads": "22.9K"
-    },
-    {
         "id": "pulse_1",
         "name": "Financial Analyst",
         "platform": "PulseMCP",
@@ -40,8 +29,8 @@
         "description": "Analyze stock market trends and financial reports using specialized tools.",
         "url": "https://pulsemcp.com",
         "trending": true,
-        "hotness": 99,
-        "downloads": "15.5K"
+        "hotness": 100,
+        "downloads": "15.6K"
     },
     {
         "id": "gpt_1",
@@ -51,7 +40,7 @@
         "description": "AI-powered search engine for academic research. Search 200M+ papers.",
         "url": "https://chat.openai.com/g/g-bo09qzrY7-consensus",
         "trending": true,
-        "hotness": 97,
+        "hotness": 100,
         "downloads": "2.1M"
     },
     {
@@ -62,8 +51,19 @@
         "description": "Enterprise-grade PostgreSQL connector for Model Context Protocol.",
         "url": "https://smithery.ai",
         "trending": true,
-        "hotness": 97,
+        "hotness": 100,
         "downloads": "12.5K"
+    },
+    {
+        "id": "composio_1",
+        "name": "GitHub Power Tool",
+        "platform": "Composio",
+        "category": "Productivity",
+        "description": "Advanced GitHub integration for repository management and PR automation.",
+        "url": "https://composio.ai",
+        "trending": true,
+        "hotness": 99,
+        "downloads": "23.1K"
     },
     {
         "id": "langchain_1",
@@ -73,8 +73,19 @@
         "description": "Optimize your Retrieval Augmented Generation pipelines with specific prompts.",
         "url": "https://smith.langchain.com/hub",
         "trending": true,
-        "hotness": 96,
-        "downloads": "46.6K"
+        "hotness": 99,
+        "downloads": "46.8K"
+    },
+    {
+        "id": "gpt_4",
+        "name": "Prompt Perfect",
+        "platform": "GPT Store",
+        "category": "Productivity",
+        "description": "The gold standard for automatic prompt engineering.",
+        "url": "https://chat.openai.com/g/g-m6U6E5l1e-prompt-perfect",
+        "trending": true,
+        "hotness": 95,
+        "downloads": "798.6K"
     },
     {
         "id": "toolhouse_1",
@@ -95,19 +106,19 @@
         "description": "Unlock scientific knowledge from 200M+ peer-reviewed papers.",
         "url": "https://chat.openai.com/g/g-L4W7A86Yc-scholarai",
         "trending": true,
-        "hotness": 93,
-        "downloads": "980.9K"
+        "hotness": 94,
+        "downloads": "985.0K"
     },
     {
-        "id": "gpt_4",
-        "name": "Prompt Perfect",
-        "platform": "GPT Store",
-        "category": "Productivity",
-        "description": "The gold standard for automatic prompt engineering.",
-        "url": "https://chat.openai.com/g/g-m6U6E5l1e-prompt-perfect",
+        "id": "dify_2",
+        "name": "GitLab Runner",
+        "platform": "Dify",
+        "category": "Coding",
+        "description": "Control your CI/CD pipelines directly through natural language.",
+        "url": "https://dify.ai",
         "trending": true,
         "hotness": 93,
-        "downloads": "797.0K"
+        "downloads": "46.9K"
     },
     {
         "id": "gpt_5",
@@ -118,18 +129,7 @@
         "url": "https://chat.openai.com/g/g-S9nMB9C6p-logo-creator",
         "trending": false,
         "hotness": 92,
-        "downloads": "634.8K"
-    },
-    {
-        "id": "dify_2",
-        "name": "GitLab Runner",
-        "platform": "Dify",
-        "category": "Coding",
-        "description": "Control your CI/CD pipelines directly through natural language.",
-        "url": "https://dify.ai",
-        "trending": true,
-        "hotness": 90,
-        "downloads": "46.7K"
+        "downloads": "638.1K"
     },
     {
         "id": "coze_2",
@@ -140,7 +140,7 @@
         "url": "https://www.coze.com",
         "trending": true,
         "hotness": 88,
-        "downloads": "909.5K"
+        "downloads": "912.7K"
     },
     {
         "id": "mcp_run_1",
@@ -150,8 +150,8 @@
         "description": "Real-time weather data serverless function for AI agents.",
         "url": "https://mcp.run",
         "trending": false,
-        "hotness": 84,
-        "downloads": "8.5K"
+        "hotness": 83,
+        "downloads": "8.6K"
     },
     {
         "id": "dify_1",
@@ -161,8 +161,8 @@
         "description": "Automate Slack messages and channel management with LLM agents.",
         "url": "https://dify.ai",
         "trending": false,
-        "hotness": 81,
-        "downloads": "124.3K"
+        "hotness": 82,
+        "downloads": "125.5K"
     },
     {
         "id": "himcp_1",
@@ -172,7 +172,7 @@
         "description": "Manage products and orders via natural language in your agent.",
         "url": "https://himcp.ai",
         "trending": false,
-        "hotness": 77,
+        "hotness": 75,
         "downloads": "3.5K"
     },
     {
@@ -183,7 +183,7 @@
         "description": "Monitor server health and receive alerts directly in chat.",
         "url": "https://clawhub.io",
         "trending": false,
-        "hotness": 75,
+        "hotness": 73,
         "downloads": "2.1K"
     }
 ]

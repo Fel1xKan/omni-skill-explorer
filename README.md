@@ -1,8 +1,8 @@
-# Skill Market Explorer
+# Omni Skill Explorer
 
 An online tool for discovering popular AI skills, plugins, and agents across various marketplaces including Coze, Dify, GPT Store, Smithery, HiMCP, and more.
 
-**🌐 Live Demo: [https://Fel1xKan.github.io/core-skylab/](https://Fel1xKan.github.io/core-skylab/)**
+**🌐 Live Demo: [https://Fel1xKan.github.io/omni-skill-explorer/](https://Fel1xKan.github.io/omni-skill-explorer/)**
 
 ## 🌟 Features
 - **Auto-Sync**: Daily data updates powered by GitHub Actions.
