@@ -139,8 +139,8 @@ h1, h2, h3 {
 }
 
 .content-header {
-    height: 80px;
-    padding: 0 40px;
+    min-height: 80px;
+    padding: 24px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
