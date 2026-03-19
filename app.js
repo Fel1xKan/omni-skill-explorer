@@ -197,7 +197,7 @@ function renderPage() {
 }
 
 function renderDiscoverPage(query = '') {
-    const categories = ['All', 'Search', 'Creative', 'Productivity', 'Research', 'Coding'];
+    const categories = ['All', 'Office', 'Automation', 'Finance', 'Search', 'Creative', 'Productivity', 'Research', 'Coding'];
     
     let html = `
         <div class="section-title">
