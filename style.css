@@ -393,6 +393,41 @@ h1, h2, h3 {
     font-weight: 600;
 }
 
+.install-cmd {
+    background: #000;
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.install-cmd code {
+    font-family: 'Fira Code', monospace;
+    font-size: 12px;
+    color: #00f2fe;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.copy-cmd-btn {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px;
+    transition: var(--transition);
+}
+
+.copy-cmd-btn:hover {
+    color: white;
+}
+
 .visit-link {
     color: white;
     text-decoration: none;

@@ -8,7 +8,8 @@ An online tool for discovering popular AI skills, plugins, and agents across var
 - **Auto-Sync**: Daily data updates powered by GitHub Actions.
 - **Popularity Metrics**: Real-time display of skill "Hotness" and download counts.
 - **Personal Collection**: Locally persist markers for your favorite skills.
-- **Multi-Platform Support**: Comprehensive coverage of major AI ecosystems.
+- **Claude Code & MCP Support**: Direct installation commands for modern AI agent environments.
+- **Multi-Platform Support**: Comprehensive coverage of major AI ecosystems including Smithery, Glama, E2B, and more.
 
 ## 🚀 Quick Start
 
@@ -29,10 +30,10 @@ This project uses GitHub Actions for CI/CD.
 - **Manual Trigger**: Go to the `Actions` tab, select `Market Data Sync`, and click `Run workflow`.
 
 ## 📂 Supported Platforms
-- **Coze / Dify / GPT Store / Poe**
-- **Model Context Protocol (MCP)**: Smithery.ai, HiMCP.ai, MCP.run, Pulse MCP
-- **Agent Extensions**: ClawHub, Composio, Toolhouse
-- **Developer Hubs**: LangChain Hub
+- **Claude Code Skills**: Direct `claude skill add` support.
+- **Model Context Protocol (MCP)**: Smithery.ai, Glama.ai, MCP Directory, MCP.run, Pulse MCP
+- **Agent Extensions**: Linkup, E2B, Composio, Toolhouse
+- **Developer Ecosystems**: Coze, Dify, GPT Store, Warp Drive
 
 ## 📄 License
 MIT License

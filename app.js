@@ -10,37 +10,40 @@ const DATA_SOURCE = 'skills_data.json'; // Local file updated by crawler
 // Initial hardcoded fallback
 const fallbackData = [
     {
-        id: '1',
-        name: 'Google Search Plugin',
-        platform: 'Coze',
-        category: 'Search',
-        description: 'Real-time web search capability for your agents using Google Search API.',
-        url: 'https://www.coze.com/store/plugin',
-        trending: true,
-        hotness: 98,
-        downloads: '1.2M'
+        "id": "smithery_docker",
+        "name": "Docker MCP",
+        "platform": "Smithery",
+        "category": "DevOps",
+        "description": "Manage Docker containers and images directly through MCP.",
+        "url": "https://smithery.ai/mcp/@mcp-get/docker",
+        "install_command": "npx @smithery/cli install @mcp-get/docker --client claude",
+        "trending": true,
+        "hotness": 100,
+        "downloads": "25.4K"
     },
     {
-        id: 'smithery_1',
-        name: 'PostgreSQL MCP Server',
-        platform: 'Smithery',
-        category: 'Database',
-        description: 'Connect your AI agents to PostgreSQL databases securely via MCP.',
-        url: 'https://smithery.ai',
-        trending: true,
-        hotness: 94,
-        downloads: '150K'
+        "id": "glama_browser",
+        "name": "Browser Tool",
+        "platform": "Glama",
+        "category": "Search",
+        "description": "High-quality browser automation and web scraping tool.",
+        "url": "https://glama.ai/mcp/browser",
+        "install_command": null,
+        "trending": true,
+        "hotness": 98,
+        "downloads": "18.2K"
     },
     {
-        id: 'composio_1',
-        name: 'GitHub Action Tool',
-        platform: 'Composio',
-        category: 'Productivity',
-        description: 'Trigger GitHub actions and manage PRs directly from LLM agents.',
-        url: 'https://composio.ai',
-        trending: true,
-        hotness: 92,
-        downloads: '210K'
+        "id": "e2b_code_interpreter",
+        "name": "E2B Code Interpreter",
+        "platform": "E2B",
+        "category": "Coding",
+        "description": "Secure sandboxed environment for code execution.",
+        "url": "https://e2b.dev",
+        "install_command": "claude skill add https://github.com/e2b-dev/mcp-server",
+        "trending": true,
+        "hotness": 97,
+        "downloads": "12.1K"
     }
 ];
 
@@ -111,6 +114,7 @@ function setupEventListeners() {
             category: document.getElementById('skill-category').value || 'Uncategorized',
             description: document.getElementById('skill-desc').value,
             url: document.getElementById('skill-url').value,
+            install_command: document.getElementById('skill-install').value || null,
             trending: false
         };
         saveToCollection(newSkill);
@@ -123,6 +127,7 @@ function setupEventListeners() {
     document.addEventListener('click', (e) => {
         const saveBtn = e.target.closest('.save-btn');
         const copyBtn = e.target.closest('.copy-btn');
+        const copyCmdBtn = e.target.closest('.copy-cmd-btn');
 
         if (saveBtn) {
             const skillId = saveBtn.dataset.id;
@@ -146,6 +151,17 @@ function setupEventListeners() {
                 copyBtn.innerHTML = '✅ Copied';
                 setTimeout(() => {
                     copyBtn.innerHTML = originalText;
+                }, 2000);
+            });
+        }
+
+        if (copyCmdBtn) {
+            const cmd = copyCmdBtn.dataset.cmd;
+            navigator.clipboard.writeText(cmd).then(() => {
+                const originalText = copyCmdBtn.innerHTML;
+                copyCmdBtn.innerHTML = '✅';
+                setTimeout(() => {
+                    copyCmdBtn.innerHTML = originalText;
                 }, 2000);
             });
         }
@@ -249,17 +265,17 @@ function renderCollectionPage(query = '') {
 
 function renderPlatformsPage() {
     const platforms = [
-        { name: 'Coze', url: 'https://www.coze.com', desc: 'Powerful agent development platform by ByteDance.' },
-        { name: 'Dify', url: 'https://dify.ai', desc: 'Open-source LLM app development platform.' },
-        { name: 'GPT Store', url: 'https://chat.openai.com/gpts', desc: 'The official marketplace for custom ChatGPTs.' },
-        { name: 'Smithery.ai', url: 'https://smithery.ai', desc: 'Marketplace for Model Context Protocol (MCP) servers.' },
-        { name: 'HiMCP.ai', url: 'https://himcp.ai', desc: 'Discovery platform for high-quality MCP integrations.' },
-        { name: 'MCP.run', url: 'https://mcp.run', desc: 'Serverless platform for deploying and running MCP tools.' },
-        { name: 'Pulse MCP', url: 'https://pulsemcp.com', desc: 'Community-driven registry for AI agent capabilities.' },
-        { name: 'ClawHub', url: 'https://clawhub.io', desc: 'A hub for specialized AI tools and agent extensions.' },
-        { name: 'Composio', url: 'https://composio.ai', desc: 'Platform for connecting LLMs with 100+ professional tools.' },
-        { name: 'Toolhouse', url: 'https://toolhouse.ai', desc: 'Infrastructure for modern AI agents to interact with the world.' },
-        { name: 'LangChain Hub', url: 'https://smith.langchain.com/hub', desc: 'Shared repository for prompts, chains, and agents.' }
+        { name: 'Smithery', url: 'https://smithery.ai', desc: 'The leading MCP ecosystem for discovering and installing tools.' },
+        { name: 'Glama', url: 'https://glama.ai/mcp', desc: 'Curated directory of high-quality MCP servers with detailed docs.' },
+        { name: 'MCP Directory', url: 'https://mcp-directory.com', desc: 'Community-driven registry of open-source MCP projects.' },
+        { name: 'Linkup', url: 'https://linkup.ai', desc: 'Deep web search and real-time data API for AI agents.' },
+        { name: 'E2B', url: 'https://e2b.dev', desc: 'Secure cloud sandboxes for running code and AI tools.' },
+        { name: 'Composio', url: 'https://composio.ai', desc: 'Connect LLMs with 100+ apps like GitHub, Slack, and Jira.' },
+        { name: 'Coze', url: 'https://www.coze.com', desc: 'ByteDance\'s platform for building AI agents and plugins.' },
+        { name: 'GPT Store', url: 'https://chat.openai.com/gpts', desc: 'The official marketplace for custom ChatGPT versions.' },
+        { name: 'Warp Drive', url: 'https://www.warp.dev/drive', desc: 'A market for terminal-based AI workflows and commands.' },
+        { name: 'Pulse MCP', url: 'https://pulsemcp.com', desc: 'A hub for tracking trending and new MCP servers.' },
+        { name: 'MCP.run', url: 'https://mcp.run', desc: 'Deploy and run MCP servers in a serverless environment.' }
     ];
 
     let html = `
@@ -284,6 +300,16 @@ function renderSkillCard(skill) {
     const saved = isSaved(skill.id);
     const hotnessColor = skill.hotness > 90 ? '#ff4d94' : skill.hotness > 70 ? '#ffae42' : '#00f2fe';
     
+    let installHtml = '';
+    if (skill.install_command) {
+        installHtml = `
+            <div class="install-cmd">
+                <code>${skill.install_command}</code>
+                <button class="copy-cmd-btn" data-cmd="${skill.install_command}" title="Copy Command">📋</button>
+            </div>
+        `;
+    }
+
     return `
         <div class="skill-card ${skill.trending ? 'trending' : ''}">
             <div class="card-header">
@@ -300,6 +326,7 @@ function renderSkillCard(skill) {
             </div>
             <h3>${skill.name}</h3>
             <p>${skill.description}</p>
+            ${installHtml}
             <div class="card-footer">
                 <div class="stats">
                     <span class="stat-item">👥 ${skill.downloads || 'N/A'}</span>

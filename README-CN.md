@@ -8,7 +8,8 @@
 - **动态更新**：通过 GitHub Actions 每天自动运行同步脚本。
 - **热度指标**：实时显示技能的热度（Hotness） and 下载量。
 - **一键收藏**：本地持久化保存您感兴趣的技能。
-- **全平台支持**：涵盖主流 AI Agent 市场。
+- **Claude Code & MCP 支持**：针对现代 AI Agent 环境提供直接安装命令。
+- **全平台支持**：涵盖 Smithery, Glama, E2B 等主流 AI Agent 市场。
 
 ## 🚀 快速开始
 
