@@ -9,31 +9,7 @@
         "install_command": "npx @smithery/cli install @mcp-get/docker --client claude",
         "trending": true,
         "hotness": 100,
-        "downloads": "25.4K"
-    },
-    {
-        "id": "glama_browser",
-        "name": "Browser Tool",
-        "platform": "Glama",
-        "category": "Search",
-        "description": "High-quality browser automation and web scraping tool.",
-        "url": "https://glama.ai/mcp/browser",
-        "install_command": null,
-        "trending": true,
-        "hotness": 98,
-        "downloads": "18.2K"
-    },
-    {
-        "id": "e2b_code_interpreter",
-        "name": "E2B Code Interpreter",
-        "platform": "E2B",
-        "category": "Coding",
-        "description": "Secure sandboxed environment for code execution.",
-        "url": "https://e2b.dev",
-        "install_command": "claude skill add https://github.com/e2b-dev/mcp-server",
-        "trending": true,
-        "hotness": 97,
-        "downloads": "12.1K"
+        "downloads": "25.6K"
     },
     {
         "id": "github_mcp_server",
@@ -44,20 +20,32 @@
         "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
         "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/github",
         "trending": true,
-        "hotness": 96,
-        "downloads": "45.2K"
+        "hotness": 99,
+        "downloads": "45.4K"
     },
     {
-        "id": "linkup_search",
-        "name": "Linkup Search",
-        "platform": "Linkup",
+        "id": "glama_browser",
+        "name": "Browser Tool",
+        "platform": "Glama",
         "category": "Search",
-        "description": "Deep web search capabilities for real-time information.",
-        "url": "https://linkup.ai",
+        "description": "High-quality browser automation and web scraping tool.",
+        "url": "https://glama.ai/mcp/browser",
         "install_command": null,
         "trending": true,
-        "hotness": 95,
-        "downloads": "8.9K"
+        "hotness": 97,
+        "downloads": "18.3K"
+    },
+    {
+        "id": "e2b_code_interpreter",
+        "name": "E2B Code Interpreter",
+        "platform": "E2B",
+        "category": "Coding",
+        "description": "Secure sandboxed environment for code execution.",
+        "url": "https://e2b.dev",
+        "install_command": "claude skill add https://github.com/e2b-dev/mcp-server",
+        "trending": true,
+        "hotness": 96,
+        "downloads": "12.1K"
     },
     {
         "id": "smithery_postgresql",
@@ -68,20 +56,8 @@
         "url": "https://smithery.ai/mcp/postgresql",
         "install_command": "npx @smithery/cli install postgresql --client claude",
         "trending": true,
-        "hotness": 94,
-        "downloads": "12.5K"
-    },
-    {
-        "id": "mcp_directory_sequential_thinking",
-        "name": "Sequential Thinking",
-        "platform": "MCP Directory",
-        "category": "Research",
-        "description": "A tool that helps Claude think through complex problems step-by-step.",
-        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
-        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
-        "trending": true,
-        "hotness": 93,
-        "downloads": "56.7K"
+        "hotness": 96,
+        "downloads": "12.6K"
     },
     {
         "id": "gpt_consensus",
@@ -92,8 +68,32 @@
         "url": "https://chat.openai.com/g/g-bo09qzrY7-consensus",
         "install_command": null,
         "trending": true,
-        "hotness": 92,
+        "hotness": 94,
         "downloads": "2.1M"
+    },
+    {
+        "id": "linkup_search",
+        "name": "Linkup Search",
+        "platform": "Linkup",
+        "category": "Search",
+        "description": "Deep web search capabilities for real-time information.",
+        "url": "https://linkup.ai",
+        "install_command": null,
+        "trending": true,
+        "hotness": 93,
+        "downloads": "8.9K"
+    },
+    {
+        "id": "mcp_directory_sequential_thinking",
+        "name": "Sequential Thinking",
+        "platform": "MCP Directory",
+        "category": "Research",
+        "description": "A tool that helps Claude think through complex problems step-by-step.",
+        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+        "trending": true,
+        "hotness": 91,
+        "downloads": "57.2K"
     },
     {
         "id": "composio_github",
@@ -104,8 +104,8 @@
         "url": "https://composio.ai",
         "install_command": null,
         "trending": true,
-        "hotness": 91,
-        "downloads": "23.1K"
+        "hotness": 89,
+        "downloads": "23.3K"
     },
     {
         "id": "warp_workflows",
@@ -117,7 +117,7 @@
         "install_command": null,
         "trending": false,
         "hotness": 88,
-        "downloads": "32.1K"
+        "downloads": "32.3K"
     },
     {
         "id": "pulsemcp_financial_analyst",
@@ -128,8 +128,20 @@
         "url": "https://pulsemcp.com",
         "install_command": null,
         "trending": true,
-        "hotness": 87,
+        "hotness": 88,
         "downloads": "15.6K"
+    },
+    {
+        "id": "github_slack_mcp",
+        "name": "Slack MCP",
+        "platform": "GitHub",
+        "category": "Productivity",
+        "description": "Integrate Slack workspace with your AI tools via MCP.",
+        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+        "trending": true,
+        "hotness": 88,
+        "downloads": "12.4K"
     },
     {
         "id": "coze_google_search",
@@ -140,7 +152,7 @@
         "url": "https://www.coze.com/store/plugin/7333878070381002753",
         "install_command": null,
         "trending": false,
-        "hotness": 85,
+        "hotness": 83,
         "downloads": "1.5M"
     },
     {
@@ -154,17 +166,5 @@
         "trending": false,
         "hotness": 82,
         "downloads": "8.6K"
-    },
-    {
-        "id": "github_slack_mcp",
-        "name": "Slack MCP",
-        "platform": "GitHub",
-        "category": "Productivity",
-        "description": "Integrate Slack workspace with your AI tools via MCP.",
-        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
-        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
-        "trending": true,
-        "hotness": 90,
-        "downloads": "12.3K"
     }
 ]
