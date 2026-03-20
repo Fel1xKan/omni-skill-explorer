@@ -129,6 +129,11 @@ h1, h2, h3 {
     border-color: var(--accent);
 }
 
+#language-select option {
+    background: var(--bg-side);
+    color: var(--text-primary);
+}
+
 .user-profile {
     display: flex;
     align-items: center;
@@ -176,6 +181,7 @@ h1, h2, h3 {
     top: 0;
     z-index: 90;
     border-bottom: 1px solid var(--card-border);
+    flex-shrink: 0;
 }
 
 .search-bar {
