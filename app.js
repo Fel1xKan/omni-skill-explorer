@@ -196,6 +196,9 @@ function setupEventListeners() {
 }
 
 function renderPage() {
+    const filtersContainer = document.querySelector('.filters');
+    const scrollLeft = filtersContainer ? filtersContainer.scrollLeft : 0;
+
     pageContent.innerHTML = '';
     pageContent.className = 'page-fade-in';
     
@@ -209,6 +212,13 @@ function renderPage() {
         case 'platforms':
             renderPlatformsPage();
             break;
+    }
+
+    if (currentPage === 'discover') {
+        const newFiltersContainer = document.querySelector('.filters');
+        if (newFiltersContainer) {
+            newFiltersContainer.scrollLeft = scrollLeft;
+        }
     }
 }
 
