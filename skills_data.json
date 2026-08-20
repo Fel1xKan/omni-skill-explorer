@@ -9,7 +9,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "54.2K"
+        "downloads": "54.5K"
     },
     {
         "id": "pdf_converter",
@@ -21,7 +21,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "145.4K"
+        "downloads": "146.5K"
     },
     {
         "id": "smithery_postgresql",
@@ -45,7 +45,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "506.4K"
+        "downloads": "507.1K"
     },
     {
         "id": "notion_workspace",
@@ -57,7 +57,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "309.0K"
+        "downloads": "311.6K"
     },
     {
         "id": "gpt_consensus",
@@ -81,7 +81,7 @@
         "install_command": "claude skill add https://github.com/stripe/mcp-server",
         "trending": true,
         "hotness": 100,
-        "downloads": "54.7K"
+        "downloads": "55.0K"
     },
     {
         "id": "zapier_automation",
@@ -93,19 +93,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "1265.3K"
-    },
-    {
-        "id": "glama_browser",
-        "name": "Browser Tool",
-        "platform": "Glama",
-        "category": "Search",
-        "description": "High-quality browser automation and web scraping tool.",
-        "url": "https://glama.ai/mcp/browser",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "43.3K"
+        "downloads": "1270.7K"
     },
     {
         "id": "mcp_run_weather",
@@ -117,19 +105,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "22.0K"
-    },
-    {
-        "id": "csv_processor",
-        "name": "CSV Processor",
-        "platform": "Smithery",
-        "category": "Data",
-        "description": "Clean and transform large CSV datasets automatically.",
-        "url": "https://smithery.ai",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "66.9K"
+        "downloads": "22.1K"
     },
     {
         "id": "smithery_docker",
@@ -141,7 +117,7 @@
         "install_command": "npx @smithery/cli install @mcp-get/docker --client claude",
         "trending": true,
         "hotness": 100,
-        "downloads": "61.2K"
+        "downloads": "61.3K"
     },
     {
         "id": "image_optimizer",
@@ -152,20 +128,32 @@
         "url": "https://glama.ai",
         "install_command": null,
         "trending": true,
-        "hotness": 99,
-        "downloads": "100.2K"
+        "hotness": 100,
+        "downloads": "100.7K"
     },
     {
-        "id": "math_solver",
-        "name": "Math Solver",
-        "platform": "GPT Store",
-        "category": "Education",
-        "description": "Solve complex mathematical problems with step-by-step explanations.",
-        "url": "https://chat.openai.com",
+        "id": "seo_optimizer",
+        "name": "SEO Optimizer",
+        "platform": "Glama",
+        "category": "Marketing",
+        "description": "Analyze website SEO and provide actionable recommendations for ranking.",
+        "url": "https://glama.ai",
+        "install_command": null,
+        "trending": true,
+        "hotness": 100,
+        "downloads": "36.1K"
+    },
+    {
+        "id": "glama_browser",
+        "name": "Browser Tool",
+        "platform": "Glama",
+        "category": "Search",
+        "description": "High-quality browser automation and web scraping tool.",
+        "url": "https://glama.ai/mcp/browser",
         "install_command": null,
         "trending": true,
         "hotness": 99,
-        "downloads": "1.2M"
+        "downloads": "43.4K"
     },
     {
         "id": "gmail_manager",
@@ -177,19 +165,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 99,
-        "downloads": "749.4K"
-    },
-    {
-        "id": "seo_optimizer",
-        "name": "SEO Optimizer",
-        "platform": "Glama",
-        "category": "Marketing",
-        "description": "Analyze website SEO and provide actionable recommendations for ranking.",
-        "url": "https://glama.ai",
-        "install_command": null,
-        "trending": true,
-        "hotness": 99,
-        "downloads": "36.1K"
+        "downloads": "755.7K"
     },
     {
         "id": "fitness_coach",
@@ -201,19 +177,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 99,
-        "downloads": "198.0K"
-    },
-    {
-        "id": "coze_google_search",
-        "name": "Google Search",
-        "platform": "Coze",
-        "category": "Search",
-        "description": "The official Google Search plugin for real-time information retrieval.",
-        "url": "https://www.coze.com/store/plugin/7333878070381002753",
-        "install_command": null,
-        "trending": true,
-        "hotness": 99,
-        "downloads": "1.5M"
+        "downloads": "199.2K"
     },
     {
         "id": "sales_outreach",
@@ -224,20 +188,56 @@
         "url": "https://smithery.ai",
         "install_command": null,
         "trending": true,
-        "hotness": 98,
-        "downloads": "27.3K"
+        "hotness": 99,
+        "downloads": "27.6K"
     },
     {
-        "id": "telegram_assistant",
-        "name": "Telegram Assistant",
+        "id": "discord_bot",
+        "name": "Discord Bot",
         "platform": "GitHub",
         "category": "Communication",
-        "description": "Automate Telegram messages and group management.",
+        "description": "Integrate AI with Discord to manage servers and chat with users.",
         "url": "https://github.com/modelcontextprotocol/servers",
+        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/discord",
+        "trending": true,
+        "hotness": 99,
+        "downloads": "78.0K"
+    },
+    {
+        "id": "linkup_search",
+        "name": "Linkup Search",
+        "platform": "Linkup",
+        "category": "Search",
+        "description": "Deep web search capabilities for real-time information.",
+        "url": "https://linkup.ai",
+        "install_command": null,
+        "trending": true,
+        "hotness": 99,
+        "downloads": "19.9K"
+    },
+    {
+        "id": "csv_processor",
+        "name": "CSV Processor",
+        "platform": "Smithery",
+        "category": "Data",
+        "description": "Clean and transform large CSV datasets automatically.",
+        "url": "https://smithery.ai",
         "install_command": null,
         "trending": true,
         "hotness": 98,
-        "downloads": "27.7K"
+        "downloads": "67.2K"
+    },
+    {
+        "id": "math_solver",
+        "name": "Math Solver",
+        "platform": "GPT Store",
+        "category": "Education",
+        "description": "Solve complex mathematical problems with step-by-step explanations.",
+        "url": "https://chat.openai.com",
+        "install_command": null,
+        "trending": true,
+        "hotness": 98,
+        "downloads": "1.2M"
     },
     {
         "id": "slack_messenger",
@@ -249,67 +249,7 @@
         "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
         "trending": true,
         "hotness": 98,
-        "downloads": "98.8K"
-    },
-    {
-        "id": "discord_bot",
-        "name": "Discord Bot",
-        "platform": "GitHub",
-        "category": "Communication",
-        "description": "Integrate AI with Discord to manage servers and chat with users.",
-        "url": "https://github.com/modelcontextprotocol/servers",
-        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/discord",
-        "trending": true,
-        "hotness": 98,
-        "downloads": "77.9K"
-    },
-    {
-        "id": "e2b_code_interpreter",
-        "name": "E2B Code Interpreter",
-        "platform": "E2B",
-        "category": "Coding",
-        "description": "Secure sandboxed environment for code execution.",
-        "url": "https://e2b.dev",
-        "install_command": "claude skill add https://github.com/e2b-dev/mcp-server",
-        "trending": true,
-        "hotness": 98,
-        "downloads": "28.0K"
-    },
-    {
-        "id": "linkup_search",
-        "name": "Linkup Search",
-        "platform": "Linkup",
-        "category": "Search",
-        "description": "Deep web search capabilities for real-time information.",
-        "url": "https://linkup.ai",
-        "install_command": null,
-        "trending": true,
-        "hotness": 98,
-        "downloads": "19.8K"
-    },
-    {
-        "id": "travel_planner",
-        "name": "Travel Planner",
-        "platform": "Coze",
-        "category": "Lifestyle",
-        "description": "Plan your next trip with AI-generated itineraries and recommendations.",
-        "url": "https://www.coze.com",
-        "install_command": null,
-        "trending": true,
-        "hotness": 98,
-        "downloads": "284.4K"
-    },
-    {
-        "id": "mcp_directory_sequential_thinking",
-        "name": "Sequential Thinking",
-        "platform": "MCP Directory",
-        "category": "Research",
-        "description": "A tool that helps Claude think through complex problems step-by-step.",
-        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
-        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
-        "trending": true,
-        "hotness": 97,
-        "downloads": "136.7K"
+        "downloads": "99.5K"
     },
     {
         "id": "warp_workflows",
@@ -320,20 +260,68 @@
         "url": "https://www.warp.dev/drive",
         "install_command": null,
         "trending": true,
-        "hotness": 97,
-        "downloads": "72.7K"
+        "hotness": 98,
+        "downloads": "72.9K"
     },
     {
-        "id": "excel_automator",
-        "name": "Excel Automator",
-        "platform": "GitHub",
-        "category": "Office",
-        "description": "Automate complex spreadsheet tasks, data entry, and report generation.",
-        "url": "https://github.com/modelcontextprotocol/servers",
-        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/excel",
+        "id": "pulsemcp_financial_analyst",
+        "name": "Financial Analyst",
+        "platform": "PulseMCP",
+        "category": "Finance",
+        "description": "Analyze stock market trends and financial reports using specialized tools.",
+        "url": "https://pulsemcp.com",
+        "install_command": null,
+        "trending": true,
+        "hotness": 98,
+        "downloads": "37.5K"
+    },
+    {
+        "id": "coze_google_search",
+        "name": "Google Search",
+        "platform": "Coze",
+        "category": "Search",
+        "description": "The official Google Search plugin for real-time information retrieval.",
+        "url": "https://www.coze.com/store/plugin/7333878070381002753",
+        "install_command": null,
         "trending": true,
         "hotness": 97,
-        "downloads": "204.7K"
+        "downloads": "1.5M"
+    },
+    {
+        "id": "telegram_assistant",
+        "name": "Telegram Assistant",
+        "platform": "GitHub",
+        "category": "Communication",
+        "description": "Automate Telegram messages and group management.",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "install_command": null,
+        "trending": true,
+        "hotness": 97,
+        "downloads": "28.0K"
+    },
+    {
+        "id": "e2b_code_interpreter",
+        "name": "E2B Code Interpreter",
+        "platform": "E2B",
+        "category": "Coding",
+        "description": "Secure sandboxed environment for code execution.",
+        "url": "https://e2b.dev",
+        "install_command": "claude skill add https://github.com/e2b-dev/mcp-server",
+        "trending": true,
+        "hotness": 97,
+        "downloads": "28.2K"
+    },
+    {
+        "id": "travel_planner",
+        "name": "Travel Planner",
+        "platform": "Coze",
+        "category": "Lifestyle",
+        "description": "Plan your next trip with AI-generated itineraries and recommendations.",
+        "url": "https://www.coze.com",
+        "install_command": null,
+        "trending": true,
+        "hotness": 97,
+        "downloads": "286.0K"
     },
     {
         "id": "crm_assistant",
@@ -345,19 +333,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 97,
-        "downloads": "52.0K"
-    },
-    {
-        "id": "sql_analyst",
-        "name": "SQL Analyst",
-        "platform": "E2B",
-        "category": "Data",
-        "description": "Connect to databases and generate SQL queries from natural language.",
-        "url": "https://e2b.dev",
-        "install_command": null,
-        "trending": true,
-        "hotness": 97,
-        "downloads": "43.3K"
+        "downloads": "52.3K"
     },
     {
         "id": "google_calendar",
@@ -369,43 +345,7 @@
         "install_command": "npx @smithery/cli install google-calendar --client claude",
         "trending": true,
         "hotness": 97,
-        "downloads": "103.4K"
-    },
-    {
-        "id": "pulsemcp_financial_analyst",
-        "name": "Financial Analyst",
-        "platform": "PulseMCP",
-        "category": "Finance",
-        "description": "Analyze stock market trends and financial reports using specialized tools.",
-        "url": "https://pulsemcp.com",
-        "install_command": null,
-        "trending": true,
-        "hotness": 97,
-        "downloads": "37.4K"
-    },
-    {
-        "id": "patent_search",
-        "name": "Patent Search",
-        "platform": "E2B",
-        "category": "Legal",
-        "description": "Search and analyze patent databases for prior art and innovation.",
-        "url": "https://e2b.dev",
-        "install_command": null,
-        "trending": true,
-        "hotness": 96,
-        "downloads": "10.4K"
-    },
-    {
-        "id": "ad_copy_generator",
-        "name": "Ad Copy Generator",
-        "platform": "GPT Store",
-        "category": "Marketing",
-        "description": "Create high-converting ad copy for various platforms and audiences.",
-        "url": "https://chat.openai.com",
-        "install_command": null,
-        "trending": true,
-        "hotness": 96,
-        "downloads": "1014.0K"
+        "downloads": "104.3K"
     },
     {
         "id": "github_mcp_server",
@@ -416,8 +356,68 @@
         "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
         "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/github",
         "trending": true,
-        "hotness": 96,
-        "downloads": "108.1K"
+        "hotness": 97,
+        "downloads": "108.6K"
+    },
+    {
+        "id": "mcp_directory_sequential_thinking",
+        "name": "Sequential Thinking",
+        "platform": "MCP Directory",
+        "category": "Research",
+        "description": "A tool that helps Claude think through complex problems step-by-step.",
+        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+        "trending": true,
+        "hotness": 95,
+        "downloads": "138.0K"
+    },
+    {
+        "id": "excel_automator",
+        "name": "Excel Automator",
+        "platform": "GitHub",
+        "category": "Office",
+        "description": "Automate complex spreadsheet tasks, data entry, and report generation.",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/excel",
+        "trending": true,
+        "hotness": 95,
+        "downloads": "205.2K"
+    },
+    {
+        "id": "sql_analyst",
+        "name": "SQL Analyst",
+        "platform": "E2B",
+        "category": "Data",
+        "description": "Connect to databases and generate SQL queries from natural language.",
+        "url": "https://e2b.dev",
+        "install_command": null,
+        "trending": true,
+        "hotness": 95,
+        "downloads": "43.7K"
+    },
+    {
+        "id": "ad_copy_generator",
+        "name": "Ad Copy Generator",
+        "platform": "GPT Store",
+        "category": "Marketing",
+        "description": "Create high-converting ad copy for various platforms and audiences.",
+        "url": "https://chat.openai.com",
+        "install_command": null,
+        "trending": true,
+        "hotness": 95,
+        "downloads": "1016.6K"
+    },
+    {
+        "id": "patent_search",
+        "name": "Patent Search",
+        "platform": "E2B",
+        "category": "Legal",
+        "description": "Search and analyze patent databases for prior art and innovation.",
+        "url": "https://e2b.dev",
+        "install_command": null,
+        "trending": true,
+        "hotness": 94,
+        "downloads": "10.5K"
     },
     {
         "id": "contract_reviewer",
@@ -428,7 +428,7 @@
         "url": "https://github.com/modelcontextprotocol/servers",
         "install_command": null,
         "trending": true,
-        "hotness": 91,
-        "downloads": "20.7K"
+        "hotness": 90,
+        "downloads": "20.8K"
     }
 ]
