@@ -1,17 +1,5 @@
 [
     {
-        "id": "smithery_postgresql",
-        "name": "PostgreSQL MCP",
-        "platform": "Smithery",
-        "category": "Database",
-        "description": "Enterprise-grade PostgreSQL connector for Model Context Protocol.",
-        "url": "https://smithery.ai/mcp/postgresql",
-        "install_command": "npx @smithery/cli install postgresql --client claude",
-        "trending": true,
-        "hotness": 100,
-        "downloads": "31.8K"
-    },
-    {
         "id": "coze_google_search",
         "name": "Google Search",
         "platform": "Coze",
@@ -33,7 +21,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "165.1K"
+        "downloads": "165.5K"
     },
     {
         "id": "e2b_code_interpreter",
@@ -45,7 +33,7 @@
         "install_command": "claude skill add https://github.com/e2b-dev/mcp-server",
         "trending": true,
         "hotness": 100,
-        "downloads": "32.5K"
+        "downloads": "32.7K"
     },
     {
         "id": "gpt_consensus",
@@ -60,18 +48,6 @@
         "downloads": "2.1M"
     },
     {
-        "id": "crm_assistant",
-        "name": "CRM Assistant",
-        "platform": "Composio",
-        "category": "Sales",
-        "description": "Automate lead tracking and customer relationship management tasks.",
-        "url": "https://composio.ai",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "58.8K"
-    },
-    {
         "id": "math_solver",
         "name": "Math Solver",
         "platform": "GPT Store",
@@ -84,42 +60,6 @@
         "downloads": "1.2M"
     },
     {
-        "id": "ad_copy_generator",
-        "name": "Ad Copy Generator",
-        "platform": "GPT Store",
-        "category": "Marketing",
-        "description": "Create high-converting ad copy for various platforms and audiences.",
-        "url": "https://chat.openai.com",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "1140.5K"
-    },
-    {
-        "id": "csv_processor",
-        "name": "CSV Processor",
-        "platform": "Smithery",
-        "category": "Data",
-        "description": "Clean and transform large CSV datasets automatically.",
-        "url": "https://smithery.ai",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "77.0K"
-    },
-    {
-        "id": "gmail_manager",
-        "name": "Gmail Manager",
-        "platform": "Coze",
-        "category": "Office",
-        "description": "AI-powered email drafting, sorting, and scheduling assistant.",
-        "url": "https://www.coze.com",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "854.9K"
-    },
-    {
         "id": "mcp_run_weather",
         "name": "Weather Reporter",
         "platform": "MCP.run",
@@ -129,19 +69,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "25.3K"
-    },
-    {
-        "id": "seo_optimizer",
-        "name": "SEO Optimizer",
-        "platform": "Glama",
-        "category": "Marketing",
-        "description": "Analyze website SEO and provide actionable recommendations for ranking.",
-        "url": "https://glama.ai",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "42.0K"
+        "downloads": "25.5K"
     },
     {
         "id": "composio_github",
@@ -153,19 +81,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "63.5K"
-    },
-    {
-        "id": "glama_browser",
-        "name": "Browser Tool",
-        "platform": "Glama",
-        "category": "Search",
-        "description": "High-quality browser automation and web scraping tool.",
-        "url": "https://glama.ai/mcp/browser",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "48.3K"
+        "downloads": "64.1K"
     },
     {
         "id": "patent_search",
@@ -177,7 +93,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "12.1K"
+        "downloads": "12.2K"
     },
     {
         "id": "fitness_coach",
@@ -189,19 +105,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "223.9K"
-    },
-    {
-        "id": "notion_workspace",
-        "name": "Notion Workspace",
-        "platform": "Composio",
-        "category": "Office",
-        "description": "Manage Notion pages, databases, and workspace automation directly.",
-        "url": "https://composio.ai",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "352.8K"
+        "downloads": "225.3K"
     },
     {
         "id": "sales_outreach",
@@ -212,8 +116,104 @@
         "url": "https://smithery.ai",
         "install_command": null,
         "trending": true,
+        "hotness": 100,
+        "downloads": "32.1K"
+    },
+    {
+        "id": "pulsemcp_financial_analyst",
+        "name": "Financial Analyst",
+        "platform": "PulseMCP",
+        "category": "Finance",
+        "description": "Analyze stock market trends and financial reports using specialized tools.",
+        "url": "https://pulsemcp.com",
+        "install_command": null,
+        "trending": true,
+        "hotness": 100,
+        "downloads": "44.2K"
+    },
+    {
+        "id": "stripe_billing",
+        "name": "Stripe Billing",
+        "platform": "GitHub",
+        "category": "Finance",
+        "description": "Handle subscriptions, invoices, and payments through AI commands.",
+        "url": "https://stripe.com",
+        "install_command": "claude skill add https://github.com/stripe/mcp-server",
+        "trending": true,
+        "hotness": 100,
+        "downloads": "62.2K"
+    },
+    {
+        "id": "smithery_postgresql",
+        "name": "PostgreSQL MCP",
+        "platform": "Smithery",
+        "category": "Database",
+        "description": "Enterprise-grade PostgreSQL connector for Model Context Protocol.",
+        "url": "https://smithery.ai/mcp/postgresql",
+        "install_command": "npx @smithery/cli install postgresql --client claude",
+        "trending": true,
         "hotness": 99,
-        "downloads": "31.8K"
+        "downloads": "32.0K"
+    },
+    {
+        "id": "crm_assistant",
+        "name": "CRM Assistant",
+        "platform": "Composio",
+        "category": "Sales",
+        "description": "Automate lead tracking and customer relationship management tasks.",
+        "url": "https://composio.ai",
+        "install_command": null,
+        "trending": true,
+        "hotness": 99,
+        "downloads": "58.9K"
+    },
+    {
+        "id": "ad_copy_generator",
+        "name": "Ad Copy Generator",
+        "platform": "GPT Store",
+        "category": "Marketing",
+        "description": "Create high-converting ad copy for various platforms and audiences.",
+        "url": "https://chat.openai.com",
+        "install_command": null,
+        "trending": true,
+        "hotness": 99,
+        "downloads": "1143.9K"
+    },
+    {
+        "id": "csv_processor",
+        "name": "CSV Processor",
+        "platform": "Smithery",
+        "category": "Data",
+        "description": "Clean and transform large CSV datasets automatically.",
+        "url": "https://smithery.ai",
+        "install_command": null,
+        "trending": true,
+        "hotness": 99,
+        "downloads": "77.4K"
+    },
+    {
+        "id": "gmail_manager",
+        "name": "Gmail Manager",
+        "platform": "Coze",
+        "category": "Office",
+        "description": "AI-powered email drafting, sorting, and scheduling assistant.",
+        "url": "https://www.coze.com",
+        "install_command": null,
+        "trending": true,
+        "hotness": 99,
+        "downloads": "860.2K"
+    },
+    {
+        "id": "seo_optimizer",
+        "name": "SEO Optimizer",
+        "platform": "Glama",
+        "category": "Marketing",
+        "description": "Analyze website SEO and provide actionable recommendations for ranking.",
+        "url": "https://glama.ai",
+        "install_command": null,
+        "trending": true,
+        "hotness": 99,
+        "downloads": "42.3K"
     },
     {
         "id": "language_tutor",
@@ -225,19 +225,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 99,
-        "downloads": "568.3K"
-    },
-    {
-        "id": "pulsemcp_financial_analyst",
-        "name": "Financial Analyst",
-        "platform": "PulseMCP",
-        "category": "Finance",
-        "description": "Analyze stock market trends and financial reports using specialized tools.",
-        "url": "https://pulsemcp.com",
-        "install_command": null,
-        "trending": true,
-        "hotness": 99,
-        "downloads": "43.8K"
+        "downloads": "571.4K"
     },
     {
         "id": "linkup_search",
@@ -249,7 +237,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 99,
-        "downloads": "23.0K"
+        "downloads": "23.2K"
     },
     {
         "id": "slack_messenger",
@@ -260,32 +248,8 @@
         "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
         "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
         "trending": true,
-        "hotness": 98,
-        "downloads": "112.1K"
-    },
-    {
-        "id": "telegram_assistant",
-        "name": "Telegram Assistant",
-        "platform": "GitHub",
-        "category": "Communication",
-        "description": "Automate Telegram messages and group management.",
-        "url": "https://github.com/modelcontextprotocol/servers",
-        "install_command": null,
-        "trending": true,
-        "hotness": 98,
-        "downloads": "31.6K"
-    },
-    {
-        "id": "stripe_billing",
-        "name": "Stripe Billing",
-        "platform": "GitHub",
-        "category": "Finance",
-        "description": "Handle subscriptions, invoices, and payments through AI commands.",
-        "url": "https://stripe.com",
-        "install_command": "claude skill add https://github.com/stripe/mcp-server",
-        "trending": true,
-        "hotness": 98,
-        "downloads": "61.6K"
+        "hotness": 99,
+        "downloads": "113.1K"
     },
     {
         "id": "excel_automator",
@@ -296,8 +260,8 @@
         "url": "https://github.com/modelcontextprotocol/servers",
         "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/excel",
         "trending": true,
-        "hotness": 98,
-        "downloads": "235.6K"
+        "hotness": 99,
+        "downloads": "237.0K"
     },
     {
         "id": "mcp_directory_sequential_thinking",
@@ -308,8 +272,8 @@
         "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
         "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
         "trending": true,
-        "hotness": 97,
-        "downloads": "158.0K"
+        "hotness": 99,
+        "downloads": "158.2K"
     },
     {
         "id": "warp_workflows",
@@ -320,32 +284,8 @@
         "url": "https://www.warp.dev/drive",
         "install_command": null,
         "trending": true,
-        "hotness": 97,
-        "downloads": "82.9K"
-    },
-    {
-        "id": "image_optimizer",
-        "name": "Image Optimizer",
-        "platform": "Glama",
-        "category": "Utilities",
-        "description": "Compress and optimize images for web performance.",
-        "url": "https://glama.ai",
-        "install_command": null,
-        "trending": true,
-        "hotness": 97,
-        "downloads": "115.2K"
-    },
-    {
-        "id": "github_mcp_server",
-        "name": "GitHub MCP",
-        "platform": "GitHub",
-        "category": "Productivity",
-        "description": "Interact with GitHub repositories and issues via MCP.",
-        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
-        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/github",
-        "trending": true,
-        "hotness": 96,
-        "downloads": "122.7K"
+        "hotness": 99,
+        "downloads": "83.6K"
     },
     {
         "id": "travel_planner",
@@ -356,8 +296,8 @@
         "url": "https://www.coze.com",
         "install_command": null,
         "trending": true,
-        "hotness": 96,
-        "downloads": "320.2K"
+        "hotness": 99,
+        "downloads": "321.4K"
     },
     {
         "id": "contract_reviewer",
@@ -368,32 +308,44 @@
         "url": "https://github.com/modelcontextprotocol/servers",
         "install_command": null,
         "trending": true,
-        "hotness": 96,
-        "downloads": "24.0K"
+        "hotness": 99,
+        "downloads": "24.2K"
     },
     {
-        "id": "sql_analyst",
-        "name": "SQL Analyst",
-        "platform": "E2B",
-        "category": "Data",
-        "description": "Connect to databases and generate SQL queries from natural language.",
-        "url": "https://e2b.dev",
+        "id": "glama_browser",
+        "name": "Browser Tool",
+        "platform": "Glama",
+        "category": "Search",
+        "description": "High-quality browser automation and web scraping tool.",
+        "url": "https://glama.ai/mcp/browser",
         "install_command": null,
         "trending": true,
-        "hotness": 95,
-        "downloads": "48.5K"
+        "hotness": 98,
+        "downloads": "48.6K"
     },
     {
-        "id": "zapier_automation",
-        "name": "Zapier Connect",
+        "id": "notion_workspace",
+        "name": "Notion Workspace",
         "platform": "Composio",
-        "category": "Automation",
-        "description": "Trigger 6000+ apps and automate workflows across your entire stack.",
-        "url": "https://zapier.com",
+        "category": "Office",
+        "description": "Manage Notion pages, databases, and workspace automation directly.",
+        "url": "https://composio.ai",
         "install_command": null,
         "trending": true,
-        "hotness": 95,
-        "downloads": "1454.5K"
+        "hotness": 98,
+        "downloads": "353.7K"
+    },
+    {
+        "id": "image_optimizer",
+        "name": "Image Optimizer",
+        "platform": "Glama",
+        "category": "Utilities",
+        "description": "Compress and optimize images for web performance.",
+        "url": "https://glama.ai",
+        "install_command": null,
+        "trending": true,
+        "hotness": 98,
+        "downloads": "115.7K"
     },
     {
         "id": "discord_bot",
@@ -404,8 +356,56 @@
         "url": "https://github.com/modelcontextprotocol/servers",
         "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/discord",
         "trending": true,
-        "hotness": 95,
-        "downloads": "88.2K"
+        "hotness": 98,
+        "downloads": "88.5K"
+    },
+    {
+        "id": "telegram_assistant",
+        "name": "Telegram Assistant",
+        "platform": "GitHub",
+        "category": "Communication",
+        "description": "Automate Telegram messages and group management.",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "install_command": null,
+        "trending": true,
+        "hotness": 97,
+        "downloads": "31.7K"
+    },
+    {
+        "id": "zapier_automation",
+        "name": "Zapier Connect",
+        "platform": "Composio",
+        "category": "Automation",
+        "description": "Trigger 6000+ apps and automate workflows across your entire stack.",
+        "url": "https://zapier.com",
+        "install_command": null,
+        "trending": true,
+        "hotness": 97,
+        "downloads": "1462.8K"
+    },
+    {
+        "id": "sql_analyst",
+        "name": "SQL Analyst",
+        "platform": "E2B",
+        "category": "Data",
+        "description": "Connect to databases and generate SQL queries from natural language.",
+        "url": "https://e2b.dev",
+        "install_command": null,
+        "trending": true,
+        "hotness": 96,
+        "downloads": "48.7K"
+    },
+    {
+        "id": "github_mcp_server",
+        "name": "GitHub MCP",
+        "platform": "GitHub",
+        "category": "Productivity",
+        "description": "Interact with GitHub repositories and issues via MCP.",
+        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+        "trending": true,
+        "hotness": 94,
+        "downloads": "123.9K"
     },
     {
         "id": "smithery_docker",
@@ -416,8 +416,8 @@
         "url": "https://smithery.ai/mcp/@mcp-get/docker",
         "install_command": "npx @smithery/cli install @mcp-get/docker --client claude",
         "trending": true,
-        "hotness": 89,
-        "downloads": "69.7K"
+        "hotness": 92,
+        "downloads": "70.0K"
     },
     {
         "id": "google_calendar",
@@ -428,7 +428,7 @@
         "url": "https://smithery.ai/mcp/google-calendar",
         "install_command": "npx @smithery/cli install google-calendar --client claude",
         "trending": true,
-        "hotness": 85,
-        "downloads": "118.0K"
+        "hotness": 87,
+        "downloads": "118.6K"
     }
 ]
