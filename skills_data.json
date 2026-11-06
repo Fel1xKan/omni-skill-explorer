@@ -21,7 +21,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "108.0K"
+        "downloads": "108.5K"
     },
     {
         "id": "stripe_billing",
@@ -33,19 +33,7 @@
         "install_command": "claude skill add https://github.com/stripe/mcp-server",
         "trending": true,
         "hotness": 100,
-        "downloads": "82.0K"
-    },
-    {
-        "id": "pdf_converter",
-        "name": "PDF Converter",
-        "platform": "Smithery",
-        "category": "Utilities",
-        "description": "Convert, merge, and split PDF documents with ease.",
-        "url": "https://smithery.ai",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "221.9K"
+        "downloads": "82.1K"
     },
     {
         "id": "csv_processor",
@@ -57,7 +45,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "101.8K"
+        "downloads": "102.4K"
     },
     {
         "id": "smithery_docker",
@@ -69,19 +57,7 @@
         "install_command": "npx @smithery/cli install @mcp-get/docker --client claude",
         "trending": true,
         "hotness": 100,
-        "downloads": "95.3K"
-    },
-    {
-        "id": "telegram_assistant",
-        "name": "Telegram Assistant",
-        "platform": "GitHub",
-        "category": "Communication",
-        "description": "Automate Telegram messages and group management.",
-        "url": "https://github.com/modelcontextprotocol/servers",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "42.4K"
+        "downloads": "95.9K"
     },
     {
         "id": "google_calendar",
@@ -93,19 +69,7 @@
         "install_command": "npx @smithery/cli install google-calendar --client claude",
         "trending": true,
         "hotness": 100,
-        "downloads": "157.6K"
-    },
-    {
-        "id": "zapier_automation",
-        "name": "Zapier Connect",
-        "platform": "Composio",
-        "category": "Automation",
-        "description": "Trigger 6000+ apps and automate workflows across your entire stack.",
-        "url": "https://zapier.com",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "1980.0K"
+        "downloads": "158.9K"
     },
     {
         "id": "image_optimizer",
@@ -117,19 +81,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "153.6K"
-    },
-    {
-        "id": "sql_analyst",
-        "name": "SQL Analyst",
-        "platform": "E2B",
-        "category": "Data",
-        "description": "Connect to databases and generate SQL queries from natural language.",
-        "url": "https://e2b.dev",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "63.6K"
+        "downloads": "154.9K"
     },
     {
         "id": "patent_search",
@@ -141,19 +93,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "15.9K"
-    },
-    {
-        "id": "e2b_code_interpreter",
-        "name": "E2B Code Interpreter",
-        "platform": "E2B",
-        "category": "Coding",
-        "description": "Secure sandboxed environment for code execution.",
-        "url": "https://e2b.dev",
-        "install_command": "claude skill add https://github.com/e2b-dev/mcp-server",
-        "trending": true,
-        "hotness": 100,
-        "downloads": "43.4K"
+        "downloads": "16.0K"
     },
     {
         "id": "pulsemcp_financial_analyst",
@@ -165,7 +105,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "59.0K"
+        "downloads": "59.5K"
     },
     {
         "id": "seo_optimizer",
@@ -177,19 +117,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "57.0K"
-    },
-    {
-        "id": "notion_workspace",
-        "name": "Notion Workspace",
-        "platform": "Composio",
-        "category": "Office",
-        "description": "Manage Notion pages, databases, and workspace automation directly.",
-        "url": "https://composio.ai",
-        "install_command": null,
-        "trending": true,
-        "hotness": 100,
-        "downloads": "471.2K"
+        "downloads": "57.1K"
     },
     {
         "id": "composio_github",
@@ -201,7 +129,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 100,
-        "downloads": "85.5K"
+        "downloads": "85.9K"
     },
     {
         "id": "excel_automator",
@@ -213,19 +141,7 @@
         "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/excel",
         "trending": true,
         "hotness": 100,
-        "downloads": "317.3K"
-    },
-    {
-        "id": "github_mcp_server",
-        "name": "GitHub MCP",
-        "platform": "GitHub",
-        "category": "Productivity",
-        "description": "Interact with GitHub repositories and issues via MCP.",
-        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
-        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/github",
-        "trending": true,
-        "hotness": 99,
-        "downloads": "164.9K"
+        "downloads": "318.0K"
     },
     {
         "id": "fitness_coach",
@@ -236,20 +152,8 @@
         "url": "https://www.coze.com",
         "install_command": null,
         "trending": true,
-        "hotness": 99,
-        "downloads": "299.4K"
-    },
-    {
-        "id": "gpt_consensus",
-        "name": "Consensus",
-        "platform": "GPT Store",
-        "category": "Research",
-        "description": "AI-powered search engine for academic research. Search 200M+ papers.",
-        "url": "https://chat.openai.com/g/g-bo09qzrY7-consensus",
-        "install_command": null,
-        "trending": true,
-        "hotness": 99,
-        "downloads": "2.1M"
+        "hotness": 100,
+        "downloads": "302.1K"
     },
     {
         "id": "linkup_search",
@@ -260,7 +164,7 @@
         "url": "https://linkup.ai",
         "install_command": null,
         "trending": true,
-        "hotness": 99,
+        "hotness": 100,
         "downloads": "31.2K"
     },
     {
@@ -272,8 +176,8 @@
         "url": "https://www.coze.com",
         "install_command": null,
         "trending": true,
-        "hotness": 99,
-        "downloads": "790.4K"
+        "hotness": 100,
+        "downloads": "796.8K"
     },
     {
         "id": "gmail_manager",
@@ -284,8 +188,8 @@
         "url": "https://www.coze.com",
         "install_command": null,
         "trending": true,
-        "hotness": 98,
-        "downloads": "1165.3K"
+        "hotness": 100,
+        "downloads": "1175.5K"
     },
     {
         "id": "discord_bot",
@@ -296,8 +200,8 @@
         "url": "https://github.com/modelcontextprotocol/servers",
         "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/discord",
         "trending": true,
-        "hotness": 98,
-        "downloads": "120.8K"
+        "hotness": 100,
+        "downloads": "121.4K"
     },
     {
         "id": "crm_assistant",
@@ -308,20 +212,128 @@
         "url": "https://composio.ai",
         "install_command": null,
         "trending": true,
-        "hotness": 98,
-        "downloads": "77.9K"
+        "hotness": 100,
+        "downloads": "78.1K"
     },
     {
-        "id": "smithery_postgresql",
-        "name": "PostgreSQL MCP",
+        "id": "pdf_converter",
+        "name": "PDF Converter",
         "platform": "Smithery",
-        "category": "Database",
-        "description": "Enterprise-grade PostgreSQL connector for Model Context Protocol.",
-        "url": "https://smithery.ai/mcp/postgresql",
-        "install_command": "npx @smithery/cli install postgresql --client claude",
+        "category": "Utilities",
+        "description": "Convert, merge, and split PDF documents with ease.",
+        "url": "https://smithery.ai",
+        "install_command": null,
+        "trending": true,
+        "hotness": 99,
+        "downloads": "222.4K"
+    },
+    {
+        "id": "sql_analyst",
+        "name": "SQL Analyst",
+        "platform": "E2B",
+        "category": "Data",
+        "description": "Connect to databases and generate SQL queries from natural language.",
+        "url": "https://e2b.dev",
+        "install_command": null,
+        "trending": true,
+        "hotness": 99,
+        "downloads": "63.9K"
+    },
+    {
+        "id": "e2b_code_interpreter",
+        "name": "E2B Code Interpreter",
+        "platform": "E2B",
+        "category": "Coding",
+        "description": "Secure sandboxed environment for code execution.",
+        "url": "https://e2b.dev",
+        "install_command": "claude skill add https://github.com/e2b-dev/mcp-server",
+        "trending": true,
+        "hotness": 99,
+        "downloads": "43.8K"
+    },
+    {
+        "id": "notion_workspace",
+        "name": "Notion Workspace",
+        "platform": "Composio",
+        "category": "Office",
+        "description": "Manage Notion pages, databases, and workspace automation directly.",
+        "url": "https://composio.ai",
+        "install_command": null,
+        "trending": true,
+        "hotness": 99,
+        "downloads": "473.8K"
+    },
+    {
+        "id": "glama_browser",
+        "name": "Browser Tool",
+        "platform": "Glama",
+        "category": "Search",
+        "description": "High-quality browser automation and web scraping tool.",
+        "url": "https://glama.ai/mcp/browser",
+        "install_command": null,
+        "trending": true,
+        "hotness": 99,
+        "downloads": "64.4K"
+    },
+    {
+        "id": "mcp_directory_sequential_thinking",
+        "name": "Sequential Thinking",
+        "platform": "MCP Directory",
+        "category": "Research",
+        "description": "A tool that helps Claude think through complex problems step-by-step.",
+        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+        "trending": true,
+        "hotness": 99,
+        "downloads": "210.3K"
+    },
+    {
+        "id": "telegram_assistant",
+        "name": "Telegram Assistant",
+        "platform": "GitHub",
+        "category": "Communication",
+        "description": "Automate Telegram messages and group management.",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "install_command": null,
         "trending": true,
         "hotness": 98,
-        "downloads": "44.2K"
+        "downloads": "42.5K"
+    },
+    {
+        "id": "zapier_automation",
+        "name": "Zapier Connect",
+        "platform": "Composio",
+        "category": "Automation",
+        "description": "Trigger 6000+ apps and automate workflows across your entire stack.",
+        "url": "https://zapier.com",
+        "install_command": null,
+        "trending": true,
+        "hotness": 98,
+        "downloads": "1982.2K"
+    },
+    {
+        "id": "github_mcp_server",
+        "name": "GitHub MCP",
+        "platform": "GitHub",
+        "category": "Productivity",
+        "description": "Interact with GitHub repositories and issues via MCP.",
+        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+        "trending": true,
+        "hotness": 98,
+        "downloads": "166.3K"
+    },
+    {
+        "id": "gpt_consensus",
+        "name": "Consensus",
+        "platform": "GPT Store",
+        "category": "Research",
+        "description": "AI-powered search engine for academic research. Search 200M+ papers.",
+        "url": "https://chat.openai.com/g/g-bo09qzrY7-consensus",
+        "install_command": null,
+        "trending": true,
+        "hotness": 97,
+        "downloads": "2.1M"
     },
     {
         "id": "sales_outreach",
@@ -333,43 +345,7 @@
         "install_command": null,
         "trending": true,
         "hotness": 97,
-        "downloads": "43.2K"
-    },
-    {
-        "id": "glama_browser",
-        "name": "Browser Tool",
-        "platform": "Glama",
-        "category": "Search",
-        "description": "High-quality browser automation and web scraping tool.",
-        "url": "https://glama.ai/mcp/browser",
-        "install_command": null,
-        "trending": true,
-        "hotness": 96,
-        "downloads": "64.0K"
-    },
-    {
-        "id": "travel_planner",
-        "name": "Travel Planner",
-        "platform": "Coze",
-        "category": "Lifestyle",
-        "description": "Plan your next trip with AI-generated itineraries and recommendations.",
-        "url": "https://www.coze.com",
-        "install_command": null,
-        "trending": true,
-        "hotness": 96,
-        "downloads": "429.8K"
-    },
-    {
-        "id": "mcp_directory_sequential_thinking",
-        "name": "Sequential Thinking",
-        "platform": "MCP Directory",
-        "category": "Research",
-        "description": "A tool that helps Claude think through complex problems step-by-step.",
-        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
-        "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
-        "trending": true,
-        "hotness": 96,
-        "downloads": "209.9K"
+        "downloads": "43.6K"
     },
     {
         "id": "ad_copy_generator",
@@ -380,20 +356,8 @@
         "url": "https://chat.openai.com",
         "install_command": null,
         "trending": true,
-        "hotness": 95,
-        "downloads": "1572.4K"
-    },
-    {
-        "id": "math_solver",
-        "name": "Math Solver",
-        "platform": "GPT Store",
-        "category": "Education",
-        "description": "Solve complex mathematical problems with step-by-step explanations.",
-        "url": "https://chat.openai.com",
-        "install_command": null,
-        "trending": true,
-        "hotness": 95,
-        "downloads": "1.2M"
+        "hotness": 97,
+        "downloads": "1584.6K"
     },
     {
         "id": "slack_messenger",
@@ -404,8 +368,20 @@
         "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
         "install_command": "claude skill add https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
         "trending": true,
-        "hotness": 94,
-        "downloads": "149.0K"
+        "hotness": 97,
+        "downloads": "149.9K"
+    },
+    {
+        "id": "smithery_postgresql",
+        "name": "PostgreSQL MCP",
+        "platform": "Smithery",
+        "category": "Database",
+        "description": "Enterprise-grade PostgreSQL connector for Model Context Protocol.",
+        "url": "https://smithery.ai/mcp/postgresql",
+        "install_command": "npx @smithery/cli install postgresql --client claude",
+        "trending": true,
+        "hotness": 96,
+        "downloads": "44.6K"
     },
     {
         "id": "contract_reviewer",
@@ -416,8 +392,32 @@
         "url": "https://github.com/modelcontextprotocol/servers",
         "install_command": null,
         "trending": true,
+        "hotness": 96,
+        "downloads": "32.4K"
+    },
+    {
+        "id": "travel_planner",
+        "name": "Travel Planner",
+        "platform": "Coze",
+        "category": "Lifestyle",
+        "description": "Plan your next trip with AI-generated itineraries and recommendations.",
+        "url": "https://www.coze.com",
+        "install_command": null,
+        "trending": true,
         "hotness": 94,
-        "downloads": "32.2K"
+        "downloads": "431.0K"
+    },
+    {
+        "id": "math_solver",
+        "name": "Math Solver",
+        "platform": "GPT Store",
+        "category": "Education",
+        "description": "Solve complex mathematical problems with step-by-step explanations.",
+        "url": "https://chat.openai.com",
+        "install_command": null,
+        "trending": true,
+        "hotness": 93,
+        "downloads": "1.2M"
     },
     {
         "id": "mcp_run_weather",
@@ -428,7 +428,7 @@
         "url": "https://mcp.run/weather",
         "install_command": null,
         "trending": true,
-        "hotness": 91,
-        "downloads": "34.4K"
+        "hotness": 93,
+        "downloads": "34.7K"
     }
 ]
